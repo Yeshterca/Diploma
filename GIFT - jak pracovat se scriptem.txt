@@ -1,0 +1,30 @@
+- GIFT - jak pracovat se scriptem
+		+ kdyz se objevi neco extra, komu psat?
+
+- data - zatim nevim, jestli uz jsem v systemu ... pristup? 
+
+- pisu teorii - kolik toho k ICA atd?
+
+
+---------------------
+- index stability komponent = vysledek ICASSO
+- pod 0.9 se zahazuje
+- tesne shluky jsou tecky
+- nestabilni jsou polygony
+- ICA jednou = jedna sata stabilnich komponent
+	- 35 odhadovat komponent = optimum
+	- pipeline na pre processing mi poskytne
+	- data jsou ve formatu dycon
+	- convert to nifty
+	- pak se spousti preprocessing
+	- 4 kroky: motion correction - registrace na prumerny snimek u, slice-timing correction a, normalizace - registrace snimku na MNI template w, spatial smoothing s
+- pro kazdy subjekt mam preprocess
+- to je vstup pro gift
+- zadat repeticni cas - perioda se kterou se nabiraji snimky mozku behem experimentu - nacista se z json souboru
+- kolikrat to pobezi = 20
+- doEstimation = 1 - odhad komponent zapnuty
+- batch script se ulozi jako m file, pak se pusti z terminalu ica_batchc_file_run(cest k tomu batch souboru)
+
+3d matice, t, componenty, subjekty
+
+extract ica dam tam cestu k vysledkum a da mi mat file, kde budou tyhle vysledky
